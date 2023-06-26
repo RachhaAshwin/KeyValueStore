@@ -8,7 +8,7 @@ WORKDIR /app
 COPY grpc_server /app/grpc_server
 
 # Install the required dependencies
-RUN pip install --no-cache-dir -r /app/grpc_server/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the desired ports
 EXPOSE 80 4000
