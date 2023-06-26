@@ -10,4 +10,4 @@ COPY grpc_server /app/grpc_server
 
 EXPOSE 8501 4000
 
-CMD ["bash", "-c", "streamlit run /app/grpc_server/python/client.py & python /app/grpc_server/python/server.py"]
+CMD ["bash", "-c", "streamlit run /app/grpc_server/python/app.py & python /app/grpc_server/python/server.py"]
