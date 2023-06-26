@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package kv;
+
+service Client {
+    rpc Get(GetKey) returns (GetReply) {}
+    rpc Set(SetKey) returns (SetReply) {}
+    rpc List(Void) returns (StoreReply) {}
+    rpc RegisterWithPeer (IP) returns (StoreReply) {}
+}
+
+message GetKey {
+    string key = 1;
+}
+
+message GetReply {
+    string value = 1;
+    bool defined = 2; 
+}
+
+message SetKey {
+    string key = 1;
+    string value = 2;
+    bool broadcast = 3;
+}
+
+message SetReply {
+    string value = 1;
+}
+
+message Void {
+
+}
+
+message IP {
+    string ip = 1;
+}
+
+message StoreReply {
+    map<string, string> store = 1;
+}
