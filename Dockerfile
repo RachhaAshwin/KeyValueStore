@@ -1,6 +1,8 @@
 # Use the official Python base image
 FROM python:3.8-slim-buster
 
+RUN pip install -r requirements.txt
+
 # Set the working directory in the container
 WORKDIR /app
 
@@ -8,7 +10,6 @@ WORKDIR /app
 COPY grpc_server /app/grpc_server
 
 # Install the required dependencies
-RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the desired ports
 EXPOSE 80 4000
