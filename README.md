@@ -39,21 +39,21 @@ When combined with eventual consistency in a multi-server setup, gRPC can provid
 3. **Low Latency**: With gRPC's efficient communication and bidirectional streaming capabilities, servers can exchange updates in near real-time. This low-latency communication facilitates quick propagation of changes and reduces the time it takes for the entire system to achieve eventual consistency.
 4. **Flexibility and Extensibility**: As the system evolves, you can add or remove servers without disrupting the overall functionality. With gRPC's support for dynamic service discovery and load balancing, new servers can be seamlessly integrated into the system, ensuring flexibility and extensibility.
 
-![Screenshot (427).png](docs/Screenshot_(427).png)
+![Screenshot (427).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(427).png)
 
-![Screenshot (424).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70699f95-6d39-42cc-a9a1-2ed23ffc95ac/Screenshot_(424).png)
+![Screenshot (424).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(424).png)
 
-![Screenshot (425).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dce820ac-463c-49f0-b0d1-609a83a7a2f1/Screenshot_(425).png)
+![Screenshot (425).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(425).png)
 
-![Screenshot (426).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/974b91d8-a4fe-43cd-a57b-e34ea876e749/Screenshot_(426).png)
+![Screenshot (426).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(426).png)
 
-![Screenshot (418).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91940e0f-8334-4f0f-b8fe-8cac91f6dde7/Screenshot_(418).png)
+![Screenshot (418).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(418).png)
 
-![Screenshot (419).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec684cd8-b746-49df-8c13-95cebdcd5d1a/Screenshot_(419).png)
+![Screenshot (419).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(419).png)
 
-![Screenshot (421).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34d6c86d-e65e-4409-9763-8f396db6001c/Screenshot_(421).png)
+![Screenshot (421).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(421).png)
 
-![Screenshot (420).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/500518d9-db80-4f47-a801-523531b5bc26/Screenshot_(420).png)
+![Screenshot (420).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(420).png)
 
 ### FastAPI Server
 
