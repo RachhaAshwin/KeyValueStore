@@ -41,19 +41,19 @@ When combined with eventual consistency in a multi-server setup, gRPC can provid
 
 ![Screenshot (427).png](docs/427.png)
 
-![Screenshot (424).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(424).png)
+![Screenshot (424).png](docs/424.png)
 
-![Screenshot (425).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(425).png)
+![Screenshot (425).png](docs/425.png)
 
-![Screenshot (426).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(426).png)
+![Screenshot (426).png](docs/426.png)
 
-![Screenshot (418).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(418).png)
+![Screenshot (418).png](docs/418.png)
 
-![Screenshot (419).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(419).png)
+![Screenshot (419).png](docs/419.png)
 
-![Screenshot (421).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(421).png)
+![Screenshot (421).png](docs/421.png)
 
-![Screenshot (420).png](https://github.com/RachhaAshwin/KeyValueStore/tree/main/docs/Screenshot_(420).png)
+![Screenshot (420).png](docs/420.png)
 
 ### FastAPI Server
 
