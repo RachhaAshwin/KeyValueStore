@@ -39,21 +39,21 @@ When combined with eventual consistency in a multi-server setup, gRPC can provid
 3. **Low Latency**: With gRPC's efficient communication and bidirectional streaming capabilities, servers can exchange updates in near real-time. This low-latency communication facilitates quick propagation of changes and reduces the time it takes for the entire system to achieve eventual consistency.
 4. **Flexibility and Extensibility**: As the system evolves, you can add or remove servers without disrupting the overall functionality. With gRPC's support for dynamic service discovery and load balancing, new servers can be seamlessly integrated into the system, ensuring flexibility and extensibility.
 
-![Screenshot (427).png](docs/427.png)
+![Image1](docs/427.png)
 
-![Screenshot (424).png](docs/424.png)
+![Image2](docs/424.png)
 
-![Screenshot (425).png](docs/425.png)
+![Image3](docs/425.png)
 
-![Screenshot (426).png](docs/426.png)
+![Image4](docs/426.png)
 
-![Screenshot (418).png](docs/418.png)
+![Image5](docs/418.png)
 
-![Screenshot (419).png](docs/419.png)
+![Image6](docs/419.png)
 
-![Screenshot (421).png](docs/421.png)
+![Image7](docs/421.png)
 
-![Screenshot (420).png](docs/420.png)
+![Image8](docs/420.png)
 
 ### FastAPI Server
 
