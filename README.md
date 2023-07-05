@@ -55,6 +55,9 @@ When combined with eventual consistency in a multi-server setup, gRPC can provid
 
 ![Image8](docs/420.png)
 
+### Latency
+![Image9](docs/437.png)
+
 ### FastAPI Server
 
 **********Usage**********
