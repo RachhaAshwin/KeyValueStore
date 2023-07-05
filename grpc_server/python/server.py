@@ -80,7 +80,7 @@ class Storer(kv_pb2_grpc.ClientServicer):
             updatePeers(key, value)
         else:
             explain("received peer update for key '{0:s}': new value = '{1:s}'".format(key, value))
-        print("Current store:", store)  # Print the store
+        #print("Current store:", store)  # Print the store
         return kv_pb2.SetReply(value=value)
 
     def List(self, request, context):
